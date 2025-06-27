@@ -1,12 +1,12 @@
 #  IBM Qiskit Hackathon — World of Quantum 2025  
 📍Messe München, Germany  
 
-This repository contains the code and methodology developed by team **Cycliq** for the Qiskit quantum computing Hackathon organized by IBM Quantum, at the World of Quantum event trade fair (Messe München, June 24 to June 25, 2025).
-The hackathon focussed on the development of custom transpiler pass routines that maps digital quantum circuits, to hardware specific physical circuits to be efficiently run on IBM hardware.
+This repository contains the code and methodology developed by team **Cycliq** for the Qiskit quantum computing Hackathon organized by IBM Quantum, at the [World of Quantum](https://world-of-quantum.com/en/) trade fair event (Messe München, June 24 to June 25, 2025).
+The hackathon focussed on the development of custom [transpiler](https://docs.quantum.ibm.com/guides/transpile) pass routines that maps digital quantum circuits, to hardware specific physical circuits to be efficiently run on IBM hardware.
 Team **Cycliq** was selected as a runner up in this event for our layout traspiler pass ACLM:
 
 ##  Project Title: Adaptive Cyclic Layout Map (ACLM)  
-**A custom transpiler pass for hardware aware mapping of periodic Two-Local Quantum circuits to IBM Quantum computing backends**
+**A custom transpiler pass for hardware aware mapping of periodic [Two-Local Quantum circuits](https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.TwoLocal) to IBM Quantum computing backends**
 
 ##  Team Members  
 - Quentin Ruiz  
@@ -16,9 +16,9 @@ Team **Cycliq** was selected as a runner up in this event for our layout traspil
 - Kerem Yurtseven  
 ---
 
- ##  Code Organization**
-- adaptive cyclic layout map.ipynb: Notebook introducing the algorithm and displaying its use case for general Two-Local periodic circuit, and a QAOA ansatz with a periodic Ising chain as the cost Hamiltonian.
-- SubmissionGroup4.ipynb: The final notebook submitted for grading on 25th.
+ ##  Code Organization
+- `adaptive cyclic layout map.ipynb`: notebook introducing the algorithm and displaying its use case for general Two-Local periodic circuit, and a QAOA ansatz with a periodic Ising chain as the cost Hamiltonian.
+- `SubmissionGroup4.ipynb`: combined notebook submitted for grading on 25/06/2025.
 ---
 **Key Use Cases**
 
