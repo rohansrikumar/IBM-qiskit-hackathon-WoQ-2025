@@ -20,6 +20,7 @@ Team **Cycliq** was selected as a runner up in this event for our layout traspil
 - `adaptive cyclic layout map.ipynb`: notebook introducing the algorithm and displaying its use case for general Two-Local periodic circuit, and a QAOA ansatz with a periodic Ising chain as the cost Hamiltonian.
 - `benchmark.ipynb`: notebook compares the performance of ACLM (and approx ACLM) passes with respect to native transpiler passes, for different number of qubits and hardware backends.
 - `find_best_cycle_with_error_minimization.ipynb`: notebook which take error mitigation of the backend, in case of the purpose algorithm find multiple cyclic sub-graph with the same length
+- `generalization.ipynb`: notebook which generalize the ACLM comparing different multi-qubit cases
 - `SubmissionGroup4.ipynb`: combined notebook submitted for grading on 25/06/2025.
 ---
 **Key Use Cases**
